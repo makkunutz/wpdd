@@ -1,0 +1,8 @@
+ @font-face {
+        font-family: 'Rock Two';
+        src: url(fonts/roca-two-bold.ttf);
+    }
+
+    a {
+      font-family: 'Rock Two';
+    }
