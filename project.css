@@ -1,8 +1,93 @@
- @font-face {
+   @font-face {
         font-family: 'Rock Two';
         src: url(fonts/roca-two-bold.ttf);
     }
 
-    a {
-      font-family: 'Rock Two';
+   @font-face {
+        font-family:'Raleway';
+        src: url(fonts/raleway-extrabold.ttf);
     }
+
+    .roca {
+      font-family: 'Rock Two';
+      padding-right: 200px;
+      font-size: xx-large;
+      color: #DBE2DD;
+    }
+    
+      .navbar-elements {
+      font-family: 'Raleway'; 
+      padding-right: 150px;
+      font-size: x-large;
+      color: #DBE2DD !important;
+    }
+
+    .navbar-custom {
+      height: 200px; 
+      background-color: transparent !important;
+      position: relative;   
+    }
+  
+    .container1{
+      background-image: url(wanderlust.jpg);
+      background-size: cover;
+    } 
+
+    .jumbo {
+      background-color: transparent;
+      font-family: "Raleway";
+      color: #DBE2DD;
+    }
+
+    .test{
+      font-size: 70px;
+      text-align: center;
+    }
+
+    .containercards1 {
+      /*background-image: url(c8cfca.png);*/
+      /* background-size: cover; */
+      background-color: #c8cfca;
+    }
+
+    .ralewayextrabold {
+      font-family: 'Raleway';
+    }
+
+    .service-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: transparent;
+  }
+
+  .service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .service-box:hover {
+    transform: scale(1.05);
+    border-color:transparent;
+    background-color: transparent(0, 0, 0, 0.05); 
+  }
+
+  a{
+    text-decoration: none;
+  }
+    
+
+   
+    
+
+    
+
+   
+
+   
+
+    
