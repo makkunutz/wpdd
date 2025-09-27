@@ -117,6 +117,10 @@
     background-color: #c8cfca;
   }
 
+  .asiabg2 {
+    background-color: #dbe2dd;
+  }
+
   .asiaheader {
     font-family: 'Raleway';
     text-align: center; 
@@ -126,6 +130,21 @@
 
   .asiatip {
     font-family: 'Raleway SemiBold';
+  }
+
+  .asiatipsleft {
+    font-family: 'Raleway';
+    text-align: left; 
+    text-shadow: 2px 2px 2px #737373; 
+    letter-spacing: 1px;
+    font-size: 25px;
+  }
+
+  .asiafloatright {
+    float: right;
+    margin-right: 15px;
+    width: 200px;
+    height: 300px;  
   }
 
   .gallery {
