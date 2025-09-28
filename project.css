@@ -147,6 +147,11 @@
     height: 300px;  
   }
 
+  .asiafloatleft {
+    float: left;
+    margin-left: 15px; 
+  }
+
   .gallery {
       width: 400px;
       height: 350px;   /* pick a height you like */
