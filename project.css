@@ -38,6 +38,11 @@
       background-size: cover;
     } 
 
+    .referencebg1{
+      background-image: url(reference.jpg);
+      background-size: cover;
+    } 
+
     .jumbo {
       background-color: transparent;
       font-family: "Raleway";
@@ -81,6 +86,13 @@
     background-color: transparent(0, 0, 0, 0.05); 
   }
 
+  .referencesize {
+      font-size: 130px;
+      text-align: center;
+      text-shadow: 2px 2px 5px black;
+      color: white;
+  }
+
   .asiacover1 {
     position: relative;
     height: 100vh; /* full screen */
@@ -104,6 +116,7 @@
   .asiasize {
     font-size: 150px;
     text-align: center;
+    text-shadow: 2px 2px 5px #474848;
   }
   
   .asiadesc {
